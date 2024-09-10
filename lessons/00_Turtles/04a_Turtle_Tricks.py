@@ -21,6 +21,7 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 tina.shape ('turtle')
 
 tina.color ('green')
+tina.left (2880)
 tina.forward
 tina.pencolor ('black')
 tina.begin_fill ()
@@ -94,12 +95,64 @@ tina.forward (100)
 tina.right (90)
 tina.forward (110)
 tina.end_fill ()
+tina.penup ()
+tina.goto (-140,-90)
+tina.pendown ()
+tina.begin_fill ()
+tina.forward (300)
+tina.left (90)
+tina.forward (25)
+tina.left (90)
+tina.forward (300)
+tina.left (90)
+tina.forward (25)
+tina.end_fill ()
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 tina.penup ()
-tina.goto (90,500)
+tina.goto (0,-500)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
