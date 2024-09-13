@@ -12,21 +12,49 @@ import turtle                           # Tell Python we want to work with the t
 turtle.setup (width=600, height=600)    # Set the size of the window
 
 tina = turtle.Turtle()                  # Create a turtle named tina
-
-tina.shape('turtle')                    # Set the shape of the turtle to a turtle
+for i in range (4):
+    tina.forward (15)
+    tina.left (90)                # Set the shape of the turtle to a turtle
 tina.speed(2)                           # Make the turtle move as fast, but not too fast. 
+for i in range (4):
+    tina.forward(30)                       # Move tina forward by the forward distance
+    tina.left(90)                           # Turn tina left by the left turn
 
-tina.forward(150)                       # Move tina forward by the forward distance
-tina.left(90)                           # Turn tina left by the left turn
+for i in range (4):
+    tina.forward (45)
+    tina.left (90)
 
-tina.forward(150)                       # Continue the last two steps three more times
-tina.left(90)                           # to draw a square
+for i in range (4):
+    tina.forward (60)
+    tina.left (90)
 
-tina.forward(150)
-tina.left(90)
+for i in range (4):
+    tina.forward (75)
+    tina.left (90)
 
-tina.forward(150)
-tina.left(90)
+for i in range (4):
+    tina.forward (90)
+    tina.left (90)
+
+for i in range (4):
+    tina.forward (105)
+    tina.left (90)
+
+for i in range (4):
+    tina.forward (120)
+    tina.left (90)
+
+for i in range (4):
+    tina.forward (135)
+    tina.left (90)
+
+
+
+
+
+
+
+
 
 
 turtle.exitonclick()                    # Close the window when we click on it
