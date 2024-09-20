@@ -10,7 +10,8 @@ but you know you can use a loop to make the program simpler.
 
 import turtle                           # Tell Python we want to work with the turtle
 turtle.setup (width=600, height=600)    # Set the size of the window
-
+window=turtle.Screen()
+window.bgcolor('red')
 tina = turtle.Turtle()                  # Create a turtle named tina
 for i in range (4):
     tina.forward (15)

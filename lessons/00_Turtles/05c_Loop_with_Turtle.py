@@ -14,12 +14,6 @@ tina=turtle
 
 
 
-
-
-
-
-
-
 turtle.exitonclick ()
 
 

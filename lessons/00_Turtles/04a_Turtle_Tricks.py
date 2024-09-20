@@ -12,16 +12,18 @@ to see how to use the turtle commands.
 import turtle                           # Tell Python we want to work with the turtle
 turtle.setup (width=600, height=600)    # Set the size of the window
 
-tina = turtle.Turtle()                  # Create a turtle named tina
-
+tina = turtle.Turtle() 
+j=tina
+window=turtle.Screen()                 # Create a turtle named tina
+window.bgcolor('purple')
 # Use tina.forward() and tina.left() to draw a triangle
 # Make each side of the triangle a different color with 
 # tina.pencolor()
-tina.speed (1)
+j.speed (10)
 
-tina.shape ('turtle')
+j.shape ('turtle')
 
-tina.color ('green')
+j.color ('green')
 tina.left (2880)
 tina.forward
 tina.pencolor ('black')
