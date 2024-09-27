@@ -20,7 +20,7 @@ j=tina
 
 ... # Your code here
 window=turtle.Screen()
-window.bgcolor('orange')
+window.bgcolor('blue')
 j.pencolor ('white')
 j.color ('green')
 j.begin_fill ()

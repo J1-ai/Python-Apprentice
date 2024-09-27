@@ -10,6 +10,24 @@ write a new program that uses a loop to draw a pentagon.
 
 import turtle
 tina=turtle
+turtle.setup (width=600, height=600)
+turtle.begin_fill()
+tina.circle (60)
+tina.end_fill()
+tina.circle (65)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

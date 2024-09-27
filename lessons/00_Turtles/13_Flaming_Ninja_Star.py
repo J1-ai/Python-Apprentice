@@ -33,7 +33,7 @@ t.width(2)
 
 t.speed(0) 
 
-for i in range(25):
+for i in range(1):
     t.pencolor(getRandomColor())
 
     t.fillcolor(getRandomColor()) 
@@ -58,4 +58,4 @@ for i in range(25):
 
 t.hideturtle() 
 
-turtle.done() 
+turtle.exitonclick () 
