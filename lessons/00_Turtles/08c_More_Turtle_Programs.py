@@ -55,7 +55,7 @@ tina.left(220)
 tina.forward(220)
 tina.left(220)
 tina.forward(200)
-tina.left(220)j
+tina.left(220)
 tina.forward(200)
 tina.left(220)
 tina.forward(220)

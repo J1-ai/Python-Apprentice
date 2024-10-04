@@ -11,12 +11,12 @@ but you know you can use a loop to make the program simpler.
 import turtle                           # Tell Python we want to work with the turtle
 turtle.setup (width=600, height=600)    # Set the size of the window
 window=turtle.Screen()
-window.bgcolor('black')
+window.bgcolor('blue')
 tina = turtle.Turtle() 
 distance=15 
 count=1
 tina.pencolor ('blue')
-tina.color('white')
+tina.color('red')
 tina.begin_fill()                # Create a turtle named tina
 for i in range (248):
     tina.forward (distance)
