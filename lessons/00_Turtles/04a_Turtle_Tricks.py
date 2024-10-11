@@ -24,7 +24,6 @@ j.speed (1)
 j.shape ('turtle')
 
 j.color ('green')
-tina.forward
 tina.pencolor ('green')
 tina.begin_fill ()
 tina.circle (105)
