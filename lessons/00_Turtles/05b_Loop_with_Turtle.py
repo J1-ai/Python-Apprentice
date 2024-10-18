@@ -26,7 +26,7 @@ for i in range (248):
     if count %4 == 0:
         distance+=5
 tina.end_fill()             # Set the shape of the turtle to a turtle
-tina.speed(0)                           # Make the turtle move as fast, but not too fast. 
+tina.speed(30)                           # Make the turtle move as fast, but not too fast. 
 # for i in range (4):
 #     tina.forward(30)                       # Move tina forward by the forward distance
 #     tina.left(90)                           # Turn tina left by the left turn

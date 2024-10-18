@@ -40,17 +40,17 @@ for i in range(10000000000000000000000000000000000000000000000000000000000000000
    
     t.begin_fill()
 
-    t.forward(64) 
+    t.forward(25) 
 
     t.left(40) 
 
     t.forward(flameSize) 
 
-    t.right(170) 
+    t.right(50) 
 
     t.forward(flameSize) 
 
-    t.right(62) 
+    t.right(200) 
 
     t.forward(baseSize) 
 
