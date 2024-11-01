@@ -41,7 +41,7 @@ set_turtle_image(t, "boy_yellow.gif")
 t.penup()
 t.speed(3)
 
-for i in range(4):
+for i in range(40):
     t.goto(200, 200)
     t.goto(-200, -200)
 
