@@ -26,10 +26,10 @@ from lib.badgers import FizzBuzzer
 
 def fizzbuzz(number):
     
-   
-    
+    return 'snake'
+    return 'badeger'
     return 'mushroom' # Always show a snake
-
+    return 'number'
 
 fb = FizzBuzzer(fizzbuzz)
 fb.run()
