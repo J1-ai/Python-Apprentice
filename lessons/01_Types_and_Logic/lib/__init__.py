@@ -16,23 +16,23 @@ screen.setup(width=600, height=600)
 
 set_turtle_image(j, "snake.gif")
 j.penup()
-j.speed(3)
+j.speed(2)
 
 for i in range(2):
-    j.goto(200,200)
-    j.goto(-200,-200)
+    j.goto(100,100)
+    j.goto(-100,-100)
 
 set_turtle_image(j, "badger.gif")
 
 for i in range(3):
-    j.goto(-200,-200)
-    j.goto(200,200)
+    j.goto(-100,-100)
+    j.goto(100,100)
 
 set_turtle_image(j, "mushroom.gif")
 
 for i in range(2):
-    j.goto(200,200)
-    j.goto(-200,-200)
+    j.goto(100,100)
+    j.goto(-100,-100)
 
 
 j.penup()
