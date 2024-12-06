@@ -12,28 +12,40 @@ more help
 
 """
 
+import random
 
 import turtle                           # Tell Python we want to work with the turtle
-turtle.setup (width=600, height=600)    # Set the size of the window
+turtle.setup (width=600, height=700)    # Set the size of the window
 
-tina = turtle.Turtle()                  # Create a turtle named tina
+tina = turtle.Turtle()
+
+
+
+def getRandomColor():
+    return "#%06X" % (random.randint(0, 0xFFFFFF))
+                  # Create a turtle named tina
 
 tina.shape('turtle')                    # Set the shape of the turtle to a turtle
-tina.speed(200)                           # Make the turtle move as fast, but not too fast. 
+tina.speed(200)
+
+def getNextColor(i):
+    return colors[i % len(colors)]
+                           # Make the turtle move as fast, but not too fast. 
+tina.speed(4)
 
 
 forwards = [ 50 ]
 lefts = [ 90 ]
-colors = [  'pink' ]
+colors = [  'getRandomColor' ]
 
-for  i in range(8):
+for  i in range(4):
 
     forward = 50
     left = 90
-    color = "green"
+    color = "getRandomColor"
 
 
-    tina.color("blue")
+    tina.pencolor("getRandomColor")
     tina.forward(50)
     tina.left(90)
 
