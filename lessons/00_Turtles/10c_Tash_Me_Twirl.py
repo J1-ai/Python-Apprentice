@@ -7,5 +7,14 @@ so the moustache will twirl when you click on it.
 Hint: See 08a_More Turtle Programs, section 'Click on the Turtle'
 """
 
-... # Your code here
+
+
+
+age="13"
+year="2024"
+for i in range(1):
+    print(f"in {year}, i was {age} years old ")
+
+
+
 
