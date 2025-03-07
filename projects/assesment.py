@@ -12,13 +12,14 @@
 
 # 4.b Call the function from 4.a
 
+def number(number):
+    number
 
 k= 10
 l= 20
 
-print(l+k)
 
-def print(l+k)
+def print (l+k)
 
 l="20"
 k="10"
