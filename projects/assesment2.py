@@ -11,4 +11,4 @@ print(popped_name)
 
 
 
-# I wanted to randomize the letters in "word", but didn't know how to do that by using pop. I also didn't know how to randomize my function.
+# I wanted to randomize the letters in "word", but didn't know how to do that by using pop, because pop only pulled out the same letter each time. I also didn't know how to randomize my function.
